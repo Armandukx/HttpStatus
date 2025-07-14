@@ -2,7 +2,7 @@
 A simple, header-only C++ library for working with HTTP status codes.
 
 ## Features
-- Fast status code lookup with `std::unordered_map`
+- Fast status code lookup with `std::array`
 - Checks for status categories (Success, Redirection, Client Error, Server Error)
 - Header-only
 
