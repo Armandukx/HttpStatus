@@ -14,7 +14,7 @@ int main() {
     int code = 404; // HTTP status code example
     
     // Print the reason phrase for the given status code
-    printf("HTTP Status %d: %s\n", code, HttpStatus::GetHttpStatusReason(code).c_str());
+    printf("HTTP Status %d: %s\n", code, HttpStatus::GetReasonPhrase(code).data());
     
     // Check if the status code indicates a successful response (2xx)
     if (HttpStatus::IsSuccess(code)) {
